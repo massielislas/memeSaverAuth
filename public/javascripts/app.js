@@ -20,12 +20,13 @@ function memeFetcher ($http) {
 
 function mainCtrl ($scope, memeFetcher,$http) {
 
-  $scope.currentID = 6;
-  $scope.meme = []
+  $scope.currentID = 1;
+  $scope.meme = [];
 
   memeFetcher.get()
     .then(function (data) {
-      $scope.meme = data
+      $scope.meme = data;
+      $scope.currentID = $scope.meme.length;
     })
 
   $scope.addMeme = function() {

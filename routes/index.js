@@ -9,6 +9,12 @@ var memes = [
     name: 'Me on a daily basis',
     avatarUrl: 'http://s2.quickmeme.com/img/6a/6a537a8428c28804ad9f638aaea421564d03ca9c83dbded3e484da57fc5353ec.jpg',
     likes:5
+  },
+  {
+    id: 1,
+    name: 'What 240 Server?',
+    avatarUrl: 'http://s2.quickmeme.com/img/28/28cc8dd1eb24d384bae43ccc4040d6a3906e1828986725eaeaa2032d9c611210.jpg',
+    likes:2
   }
 ];
 
